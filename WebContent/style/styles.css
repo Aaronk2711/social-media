@@ -1,0 +1,309 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: grey;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 7%;
+	text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: blue;
+  border: 3px solid black;
+  border-radius: 6px;
+  position: fixed;
+  top:5%;
+  width: 90%;
+  right: 2%;
+  margin-right: -3%;
+}
+
+.navbar input {
+  float: top;
+  aligh: right;
+  color: blue;
+  text-align: right;
+  padding: 10px 12px;
+  text-decoration: none;
+  margin-right: 2.5%;
+  margin-top: 1.5%;
+}
+
+.title {
+	float: left;
+	color: lime;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+h2 {
+	margin-top: -1%;
+}
+
+.table td {
+	width: 195px;
+	background-color: white;
+}
+
+.table table{
+  	width: 100%;
+  	background-color: white;
+  	border: 3px solid black;
+  	margin-bottom: 5px;
+}
+
+.header-button {
+	background-color: cyan;
+	border: 2px solid black;
+	border-radius: 3px;
+	color: orange;
+	font-weight: bold;
+	padding: 10px;
+	text-align: right;
+	width: 20%;
+}
+
+.header-button:active {
+	background-color: coral;
+	color: brown; 
+}
+
+.file-upload {
+	margin-left: 5%;
+}
+
+.inputs {
+	margin-top: 12%;
+}
+
+.pfp {
+	max-width: 150px;
+	max-height: 200px;
+}
+
+.pfp-image {
+	height: auto;
+	width: auto;
+	max-width: 150px;
+	max-height: 200px;
+}
+
+h1 {
+	letter-spacing: 2px;
+	margin-bottom: 2%;
+	text-transform: uppercase;
+}
+
+.form-editable {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 50%; 
+}
+
+.form-editable label {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2%;
+	text-align: left;
+}
+
+.form-editable input, 
+.form-editable select {
+	border-radius: 3px;
+	margin-top: 1%;
+	padding: 7px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	width: 15%;
+}
+
+.form-actions input {
+	width: 45%;
+	margin-bottom: 100px;
+}
+
+.uneditable {
+	background-color: green;
+}
+
+.navbar input {
+  float: right;
+  aligh: right;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  margin-right: 2.5%;
+  margin-top: 1.5%;
+}
+
+.hidden {
+	display: flex;
+}
+
+.hide {
+	display: flex;
+	text-align: center;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	margin-left: 70%;
+}
+
+.text {
+	width: 395px;
+}
+
+.date {
+	width: 405px;
+}
+
+.content table{
+  width: 100%;
+  background-color: black;
+}
+
+.content tr, 
+.content td {
+	background-color: white;
+}
+
+.left-people {
+	margin-top: 2%;
+	width: 50%;
+	left-margin: 2.5%;
+	float: left;
+}
+
+.left-people table{
+	margin-bottom: 2%;
+	height: 200px;
+}
+
+.right-people {
+	margin-top: 2%;
+	width: 50%;
+	right-margin: 2.5%;
+	float: right;
+}
+
+.right-people table {
+	margin-bottom: 2%;
+	height: 200px;
+}
+
+.pfp {
+	max-width: 150px;
+	max-height: 200px;
+}
+
+.pfp-image {
+	margin-top: 4px;
+	height: auto;
+	width: auto;
+	max-width: 105px;
+	max-height: 105px;
+}
+
+.main-pfp {
+	width: 190px;
+	height: 220px;
+}
+
+.main-pfp-image {
+	height: auto;
+	width: auto;
+	max-width: 220px;
+	max-height: 220px;
+}
+
+
+.header-button {
+	background-color: pink;
+	border: 1px solid black;
+	border-radius: 7px;
+	color: black;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	text-decoration: none;
+	width: 45%;
+}
+
+.header-button:active {
+	background-color: white;
+	color: black; 
+}
+
+.name-and-dob,
+.highschool-and-email,
+.hometown-and-phone,
+.update-profile {
+	height: 55px;
+}
+
+.content.hometown-and-phone,
+.content.highschool-and-email,
+.content.name-and-dob  {
+	height: 62px;
+	font-size: 20px;
+}
+
+.content .hometown-and-phone,
+.content .highschool-and-email,
+.content .name-and-dob  {
+	width: 27.5%;
+	
+}
+
+.headers {
+	margin-top: -2%;
+	margin-bottom: 5px;
+}
+
+.sub-title {
+	margin-bottom: -10px;
+}
+
+.login, 
+.modified {
+	font-size: 20px;
+}
+
+.h1 {
+	margin-top: 100%;
+}
+
+.content {
+	margin-top: 10%; 
+}
+
+.header-button {
+	background-color: lightcoral;
+	border: 1px solid black;
+	border-radius: 7px;
+	color: black;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 10%;
+}
+
+.header-button:active {
+	background-color: coral;
+	color: white; 
+}
